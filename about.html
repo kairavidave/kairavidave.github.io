@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - Kairavi Dave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .about-text {
+            flex-grow: 1;
+        }
+
+       /* Work Experience Section */
+.work-experience-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.timeline-card {
+    background-color: #eeeaea;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.timeline-connector {
+    width: 5px;
+    height: 60px;
+    background-color: #333; /* Black line between cards */
+    margin: 0 auto;
+}
+
+.timeline-header h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.timeline-header p {
+    color: #666;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Certifications Section */
+.certifications-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.certifications-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications-list li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-align: left;
+    color: #333;
+}
+
+    </style>
+</head>
+<body class="is-preload">
+     <!-- Wrapper -->
+     <div id="wrapper">
+
+    <!-- Navigation Bar -->
+    <nav id="nav">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="mailto:kairavid2@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="https://www.linkedin.com/in/kairavidave" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/kairavidave" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+
+<!-- About Me Section -->
+<section style="padding: 40px 20px; max-width: 1000px; margin: 20px auto 10px; line-height: 1.8; text-align: justify;">
+    <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px; color: #2c3e50; letter-spacing: 1px;">About Me</h2>
+    <p style="font-size: 1.2em; color: #4a4a4a; margin-bottom: 20px;">
+        I'm a recent graduate with a Bachelor of Science in Management Information Systems from Iowa State University. I am passionate about bridging the gap between technology and business to deliver meaningful insights and solutions. My academic journey and professional experiences have equipped me with a strong foundation in data analytics, project management, and business intelligence.
+    </p>
+    <p style="font-size: 1.2em; color: #4a4a4a; margin-bottom: 20px;">
+        During my internships and academic projects, I gained hands-on experience developing interactive dashboards, analyzing complex datasets, and optimizing business processes. From creating financial models that improved budget accuracy to uncovering actionable trends in travel and e-commerce data, I am motivated by the opportunity to solve real-world problems with data-driven strategies.
+    </p>
+    <p style="font-size: 1.2em; color: #4a4a4a;">
+        I am driven by curiosity and thrive in environments where I can transform challenges into opportunities for innovation and growth. Whether it's analyzing trends, building dashboards, or optimizing operations, I am excited to bring my skills and enthusiasm to make a difference.
+    </p>
+</section>
+
+<section id="skills">
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>Data Analysis</h3>
+            <p>SQL, Python (NumPy, Pandas, Matplotlib), R, Azure Synapse Analytics</p>
+        </div>
+        <div class="skill-card">
+            <h3>Data Visualization</h3>
+            <p>Power BI, Tableau, Excel (Pivot Tables, VLOOKUP, DAX)</p>
+        </div>
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <p>JIRA, ServiceNow, Azure Data Factory, MySQL, Jupyter Notebooks, Visual Studio Code, GitHub, PPM, Salesforce</p>
+        </div>
+    </div> 
+</section>
+
+
+   <!-- Work Experience Section -->
+<section class="work-experience-section">
+    <header>
+        <h2>Work Experience</h2>
+    </header>
+    <div class="timeline">
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3>Athene</h3>
+                <p>Information Technology Intern (May 2024 - Aug 2024)</p>
+            </div>
+            <p>
+                Contributed to project portfolio management by developing visual dashboards and analyzing financial metrics using SQL and Power BI. Improved reporting accuracy and optimized data pipelines.
+            </p>
+        </div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3>Iowa State University</h3>
+                <p>Technical Support Analyst (Aug 2023 - May 2024)</p>
+            </div>
+            <p>
+                Provided technical solutions to students and staff, managed service requests using ticketing systems, and honed troubleshooting skills. Improved asset management using Snipe-IT and ServiceNow.
+            </p>
+        </div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3>Kingland Systems</h3>
+                <p>Data Research Analyst (Jan 2023 - Aug 2023)</p>
+            </div>
+            <p>
+                Performed ETL operations, ensured data quality, and collaborated across teams to identify market trends and deliver actionable insights. Automated data pipelines for efficiency.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section class="certifications-section">
+    <header>
+        <h2>Certifications</h2>
+    </header>
+    <div class="certifications-list">
+        <ul>
+            <li><strong>Google IT Support Specialist</strong> - Fundamental IT knowledge and troubleshooting skills.</li>
+            <li><strong>Power BI Essential Training</strong> - Expertise in creating interactive dashboards and reports.</li>
+            <li><strong>Career Essentials in Data Analysis by Microsoft</strong> - Focus on data preparation, visualization, and insights generation.</li>
+            <li><strong>JIRA Software</strong> - Proficiency in managing agile projects and workflows using JIRA tools.</li>
+        </ul>
+    </div>
+</section>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
+
+   
